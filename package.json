@@ -1,6 +1,6 @@
 {
-  "name": "@dcheglakov/directus-extension-editorjs",
-  "version": "1.6.5",
+  "name": "directus-extension-editorjs-interface",
+  "version": "1.0.0",
   "author": {
     "email": "dcheglakov+gh@gmail.com",
     "name": "Dmytro Cheglakov"
