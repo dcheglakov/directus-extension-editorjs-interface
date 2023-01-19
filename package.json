@@ -1,19 +1,19 @@
 {
-  "name": "directus-extension-editorjs",
-  "version": "1.5.0",
+  "name": "@dcheglakov/directus-extension-editorjs",
+  "version": "1.6.2",
   "author": {
-    "email": "dimitrovadrian+gh@gmail.com",
-    "name": "Adrian Dimitrov"
+    "email": "dcheglakov+gh@gmail.com",
+    "name": "Dmytro Cheglakov"
   },
   "license": "gpl-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dimitrov-adrian/directus-extension-editorjs-interface.git"
+    "url": "https://github.com/dcheglakov/directus-extension-editorjs-interface.git"
   },
   "bugs": {
-    "url": "https://github.com/dimitrov-adrian/directus-extension-editorjs-interface/issues"
+    "url": "https://github.com/dcheglakov/directus-extension-editorjs-interface/issues"
   },
-  "homepage": "https://github.com/dimitrov-adrian/directus-extension-editorjs-interface",
+  "homepage": "https://github.com/dcheglakov/directus-extension-editorjs-interface",
   "keywords": [
     "directus",
     "directus-extension",
@@ -36,15 +36,16 @@
     "dist"
   ],
   "devDependencies": {
-    "@directus/extensions-sdk": "^9.10.0",
-    "@editorjs/attaches": "^1.2.1",
-    "@editorjs/checklist": "^1.3.0",
-    "@editorjs/code": "^2.7.0",
+    "@codexteam/ajax": "^4.2.0",
+    "@directus/extensions-sdk": "^9.22.3",
+    "@editorjs/attaches": "^1.3.0",
+    "@editorjs/checklist": "^1.4.0",
+    "@editorjs/code": "^2.8.0",
     "@editorjs/delimiter": "^1.2.0",
-    "@editorjs/editorjs": "^2.25.0",
+    "@editorjs/editorjs": "^2.26.4",
     "@editorjs/embed": "^2.5.0",
     "@editorjs/header": "^2.6.2",
-    "@editorjs/image": "^2.6.2",
+    "@editorjs/image": "^2.8.1",
     "@editorjs/inline-code": "^1.3.1",
     "@editorjs/marker": "^1.2.2",
     "@editorjs/nested-list": "^1.0.2",
@@ -52,16 +53,16 @@
     "@editorjs/personality": "^2.0.2",
     "@editorjs/quote": "^2.4.0",
     "@editorjs/raw": "^2.3.0",
-    "@editorjs/simple-image": "^1.4.1",
+    "@editorjs/simple-image": "^1.5.1",
     "@editorjs/table": "^2.0.1",
     "@editorjs/underline": "^1.0.0",
     "@editorjs/warning": "^1.2.0",
-    "editorjs-undo": "^2.0.5",
     "@itech-indrustries/editorjs-strikethrough": "^1.0.0",
     "directus-codestyle": "dimitrov-adrian/directus-codestyle",
     "editorjs-alert": "^1.0.3",
     "editorjs-list": "^2.1.4",
     "editorjs-text-alignment-blocktune": "^1.0.3",
+    "editorjs-undo": "^2.0.5",
     "lodash": "^4.17.21",
     "typescript": "^4.7.4"
   },

@@ -44,7 +44,7 @@ const props = withDefaults(
 		disabled?: boolean;
 		nullable?: boolean;
 		autofocus?: boolean;
-		value?: Object;
+		value?: Object | null;
 		bordered?: boolean;
 		placeholder?: string;
 		tools: string[];
@@ -236,7 +236,3 @@ function getSanitizedValue(value: any): EditorJS.OutputData | null {
 	object-fit: contain;
 }
 </style>
-
-<style src="./editorjs-ui.css"></style>
-<style src="./editorjs-components.css"></style>
-<style src="./editorjs-content-reset.css"></style>

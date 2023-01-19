@@ -46,7 +46,7 @@ export default function getTools(
 		},
 		list: {
 			class: ListTool,
-			inlineToolbar: false,
+			inlineToolbar: true,
 			shortcut: 'CMD+SHIFT+1',
 		},
 		nestedlist: {
@@ -109,9 +109,11 @@ export default function getTools(
 		},
 		simpleimage: {
 			class: SimpleImageTool,
+			inlineToolbar: true,
 		},
 		image: {
 			class: ImageTool,
+			inlineToolbar: true,
 			config: {
 				uploader: uploaderConfig,
 			},

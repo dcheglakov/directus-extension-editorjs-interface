@@ -1,6 +1,8 @@
 /**
  * Modified version of https://github.com/editor-js/image/blob/master/src/uploader.js
  */
+
+import ajax from '@codexteam/ajax';
 export default class Uploader {
 	constructor({ config, getCurrentFile, onUpload, onError }) {
 		this.getCurrentFile = getCurrentFile;
@@ -9,26 +11,28 @@ export default class Uploader {
 		this.onError = onError;
 	}
 
-	uploadByFile(file, { onPreview }) {
-		// Right now the only option is to open the picker.
-		this.uploadSelectedFile({ onPreview });
+	async uploadByFile(file, { onPreview }) {
+		const formData = new FormData();
+		formData.append('file', file);
 
-		onPreview();
+		const upload = await ajax.post({
+			url: this.config.uploader.addTokenToURL(`${this.config.uploader.baseURL}files`),
+			data: formData,
+			type: ajax.contentType.FORM,
+			headers: this.config.additionalRequestHeaders,
+		});
 
-		// @TODO Very ugly, but until found better way.
-		setTimeout(() => {
-			if (!this.config.uploader.getUploadFieldElement) return;
+		const result = upload.body.data;
 
-			try {
-				this.config.uploader.getUploadFieldElement().onBrowseSelect({
-					target: {
-						files: [file],
-					},
-				});
-			} catch (error) {
-				window.console.warn('editorjs-interface: Cannot get browsing component - %s', error);
-			}
-		}, 500);
+		const response = {
+			success: 1,
+			file: {
+				url: this.config.uploader.baseURL + 'assets/' + result.id,
+			},
+		};
+		console.log(response.file.url);
+		onPreview(this.config.uploader.addTokenToURL(response.file.url));
+		this.onUpload(response);
 	}
 
 	uploadByUrl(url) {
@@ -44,9 +48,7 @@ export default class Uploader {
 		if (this.getCurrentFile) {
 			const currentPreview = this.getCurrentFile();
 			if (currentPreview) {
-				this.config.uploader.setCurrentPreview(
-					this.config.uploader.addTokenToURL(currentPreview) + '&key=system-large-contain'
-				);
+				this.config.uploader.setCurrentPreview(this.config.uploader.addTokenToURL(currentPreview));
 			}
 		}
 
