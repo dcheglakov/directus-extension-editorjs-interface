@@ -101,6 +101,10 @@ export default defineInterface({
               text: "Image",
             },
             {
+              value: "alert",
+              text: "Alert",
+            },
+            {
               value: "warning",
               text: "Warning",
             },
@@ -133,20 +137,12 @@ export default defineInterface({
               text: "Inline Code",
             },
             {
-              value: "alert",
-              text: "Alert",
-            },
-            {
               value: "strikethrough",
               text: "Strikethrough",
             },
             {
               value: "delimiter",
               text: "Delimiter",
-            },
-            {
-              value: "alignmentTune",
-              text: "Alignment",
             },
             {
               value: "checklist",

@@ -236,3 +236,5 @@ function getSanitizedValue(value: any): EditorJS.OutputData | null {
 	object-fit: contain;
 }
 </style>
+
+<style src="./styles/editor-content.css" />
