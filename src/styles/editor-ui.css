@@ -1,0 +1,176 @@
+.codex-editor .ce-toolbar__plus,
+.codex-editor .ce-toolbar__settings-btn {
+  color: var(--foreground-normal);
+  background-color: var(--background-normal);
+}
+
+.codex-editor .ce-toolbar__plus:hover,
+.codex-editor .ce-toolbar__settings-btn:hover {
+  background-color: var(--background-normal-alt);
+}
+
+.codex-editor .cdx-loader::before {
+  border: 3px solid var(--background-normal-alt);
+  border-left-color: var(--primary);
+}
+
+.codex-editor .cdx-search-field {
+  background: var(--background-subdued);
+}
+
+.codex-editor .ce-popover {
+  background: var(--background-page);
+  border-color: var(--border-normal);
+}
+
+.codex-editor .ce-popover__item:hover {
+  background: var(--v-list-background-color-hover) !important;
+}
+
+.codex-editor .ce-popover__item--confirmation,
+.codex-editor .ce-popover__item--confirmation:hover {
+  background: var(--danger-90) !important;
+}
+
+.codex-editor .ce-popover__item--confirmation .ce-popover__item-icon,
+.codex-editor .ce-popover__item--confirmation .ce-popover__item-icon:hover {
+  color: var(--danger-90) !important;
+}
+
+.codex-editor .ce-popover__item-icon {
+  background: var(--background-page);
+  border-color: var(--background-normal-alt);
+}
+
+.codex-editor .ce-popover__item-secondary-label {
+  color: var(--foreground-subdued);
+}
+
+.codex-editor .image-tool--loading .image-tool__image,
+.codex-editor .ce-block--selected .ce-block__content {
+  background: var(--module-background-alt);
+}
+
+.codex-editor .image-tool--loading .image-tool__image {
+  border-color: var(--border-normal);
+}
+
+.codex-editor .ce-inline-toolbar__dropdown {
+  border-color: var(--border-normal);
+}
+
+.codex-editor .ce-inline-tool {
+  padding: 4px 6px !important;
+}
+
+.codex-editor .ce-settings__button--confirm.ce-settings__button--confirm {
+  background-color: var(--danger-110) !important;
+}
+
+/* Tooltips */
+.ct {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.ct:before,
+.ct:after {
+  background-color: var(--background-inverted);
+}
+
+.ct__content {
+  background-color: var(--background-inverted);
+  color: var(--foreground-inverted);
+  padding: 8px;
+  font-size: inherit;
+}
+
+/* Button balloons */
+
+.codex-editor .ce-toolbox__button.ce-toolbox__button--active {
+  background: var(--background-normal-alt);
+}
+
+.codex-editor .ce-conversion-toolbar,
+.codex-editor .ce-inline-toolbar,
+.codex-editor .ce-settings {
+  background: var(--background-page);
+  border-color: var(--border-normal);
+}
+
+.codex-editor .cdx-settings-button:hover,
+.codex-editor .ce-conversion-tool:hover,
+.codex-editor .ce-inline-toolbar__dropdown:hover,
+.codex-editor .ce-inline-toolbar .ce-inline-tool:hover,
+.codex-editor .ce-inline-toolbar .ce-inline-tool.ce-inline-tool--active,
+.codex-editor .ce-settings .ce-settings__button:hover {
+  background: var(--background-normal-alt);
+}
+
+.codex-editor .ce-conversion-tool:hover {
+  --webkit-box-shadow: unset;
+  color: var(--v-list-item-color-hover);
+  background-color: var(--v-list-item-background-color-hover) !important;
+  box-shadow: unset;
+}
+
+.codex-editor .ce-conversion-toolbar__label {
+  color: var(--foreground-normal);
+}
+
+.codex-editor .ce-conversion-tool__icon {
+  background: transparent;
+}
+
+/* Textarea and inputs */
+
+.codex-editor [contentEditable="true"][data-placeholder]::before {
+  font-weight: unset;
+}
+
+.codex-editor .ce-code__textarea {
+  font-family: var(--family-monospace);
+}
+
+.codex-editor .cdx-input,
+.codex-editor .ce-code__textarea {
+  color: var(--foreground-normal);
+  font-size: inherit;
+  background-color: var(--background-page);
+  border: var(--border-width) solid var(--border-normal);
+  box-shadow: unset;
+}
+
+.codex-editor .cdx-input:hover,
+.codex-editor .ce-code__textarea:hover {
+  border-color: var(--border-normal-alt);
+}
+
+.codex-editor .cdx-input:focus,
+.codex-editor .ce-code__textarea:focus {
+  border-color: var(--primary);
+}
+
+.codex-editor .ce-inline-tool-input {
+  color: var(--primary);
+  background: var(--background-normal);
+  border-top-color: var(--border-normal);
+}
+
+/* Buttons */
+
+.codex-editor .cdx-button {
+  color: var(--v-button-color);
+  font-weight: var(--v-button-font-weight);
+  font-size: var(--v-button-font-size);
+  text-decoration: none;
+  background-color: var(--v-button-background-color);
+  border: var(--border-width) solid var(--v-button-background-color);
+  cursor: pointer;
+}
+
+.codex-editor .cdx-button:hover {
+  color: var(--v-button-color-hover);
+  background-color: var(--v-button-background-color-hover);
+  border-color: var(--v-button-background-color-hover);
+}

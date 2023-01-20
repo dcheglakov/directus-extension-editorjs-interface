@@ -238,3 +238,4 @@ function getSanitizedValue(value: any): EditorJS.OutputData | null {
 </style>
 
 <style src="./styles/editor-content.css" />
+<style src="./styles/editor-ui.css" />
