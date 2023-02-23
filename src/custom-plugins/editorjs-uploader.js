@@ -32,7 +32,7 @@ export default class Uploader {
         width: result.width,
         height: result.height,
         size: result.size,
-        name: result.name,
+        name: result.filename_download,
         title: result.title,
         extension: result.extension,
         fileId: result.id,
