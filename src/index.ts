@@ -109,6 +109,10 @@ export default defineInterface({
               text: "Call to Action",
             },
             {
+              value: "infobox",
+              text: "Info Box",
+            },
+            {
               value: "warning",
               text: "Warning",
             },

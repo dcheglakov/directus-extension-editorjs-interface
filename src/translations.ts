@@ -24,7 +24,6 @@ export default function getTranslations(
         Heading: t("wysiwyg_options.heading"),
         List: t("wysiwyg_options.bullist"),
         "Nested List": t("wysiwyg_options.list"),
-        Alert: t("alert"),
         Warning: t("warning"),
         Checklist: t("interfaces.select-multiple-checkbox.checkboxes"),
         Quote: t("wysiwyg_options.blockquote"),
