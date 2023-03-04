@@ -105,6 +105,10 @@ export default defineInterface({
               text: "Alert",
             },
             {
+              value: "cta",
+              text: "Call to Action",
+            },
+            {
               value: "warning",
               text: "Warning",
             },

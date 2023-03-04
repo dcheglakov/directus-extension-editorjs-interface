@@ -19,6 +19,7 @@ import AlertTool from "editorjs-alert";
 import ImageTool from "./custom-plugins/plugin-image-patch.js";
 import AttachesTool from "./custom-plugins/plugin-attaches-patch.js";
 import PersonalityTool from "./custom-plugins/plugin-personality-patch.js";
+import CallToAction from "./custom-plugins/cta.js";
 
 export type UploaderConfig = {
   addTokenToURL: (url: string, token: string) => string;
@@ -67,6 +68,9 @@ export default function getTools(
     alert: {
       class: AlertTool,
       inlineToolbar: true,
+    },
+    cta: {
+      class: CallToAction,
     },
     warning: {
       class: WarningTool,
