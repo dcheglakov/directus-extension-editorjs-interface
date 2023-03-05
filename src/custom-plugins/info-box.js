@@ -45,16 +45,14 @@ export default class InfoBox {
     this.messagePlaceholder =
       config.messagePlaceholder || InfoBox.DEFAULT_MESSAGE;
 
+    const infoBox = InfoBox.ALERT_TYPES.find(
+      (infoBox) => infoBox.type === data.type
+    );
+
     this.data = {
-      label: InfoBox.ALERT_TYPES.includes(data.type)
-        ? data.type
-        : this.defaultType.label,
-      emoji: InfoBox.ALERT_TYPES.includes(data.type)
-        ? data.type
-        : this.defaultType.emoji,
-      type: InfoBox.ALERT_TYPES.includes(data.type)
-        ? data.type
-        : this.defaultType.type,
+      label: infoBox ? infoBox.label : this.defaultType.label,
+      emoji: infoBox ? infoBox.emoji : this.defaultType.emoji,
+      type: infoBox ? data.type : this.defaultType.type,
       message: data.message || "",
     };
 
