@@ -1,3 +1,20 @@
+const logo = `
+<svg width="142" height="41" viewBox="0 0 142 41" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <rect y="0.5" width="40" height="40" rx="8" fill="white"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.3777 18.9406H27.0049C28.9483 18.9406 29.917 19.8762 29.917 21.7446V23.9135C29.917 25.7711 28.9479 26.7008 27.0049 26.7008H24.2569V29.9366H21.3777V18.9406ZM26.8547 24.1984C26.9779 24.1984 27.0385 24.14 27.0385 24.0239V21.6186C27.0385 21.5007 26.9775 21.4427 26.8547 21.4427H24.2566V24.1984H26.8547Z" fill="#EB0000"/>
+    <path d="M17.8413 11.2588L13.615 15.328H16.2331V23.8766V25.4735C16.2331 26.5836 15.6546 27.1385 14.504 27.1385H14.1151C12.9622 27.1385 12.3856 26.584 12.3856 25.4735V23.8766V17.6467H9.1665V23.8766V25.4839C9.1665 28.4524 10.7083 29.9366 13.7895 29.9366H14.8277C17.9085 29.9366 19.4503 28.4527 19.4503 25.4839V23.8766V15.328H22.0689L17.8413 11.2588Z" fill="#EB0000"/>
+    <path d="M25.1517 14.478C24.9053 14.5643 24.7771 14.8287 24.8663 15.0682C24.935 15.2496 25.1158 15.3716 25.3158 15.3716C25.3714 15.3716 25.4263 15.3623 25.4792 15.3437L26.5073 14.9834C26.5158 14.9804 26.522 14.9733 26.5305 14.97C26.5722 14.9529 26.6108 14.9306 26.646 14.9027C26.6599 14.8915 26.6722 14.8796 26.685 14.867C26.7135 14.8383 26.7371 14.8071 26.7572 14.7721C26.763 14.7625 26.7726 14.7558 26.7777 14.7454C26.7804 14.7402 26.7796 14.7346 26.7819 14.7294C26.785 14.7219 26.7908 14.7164 26.7935 14.7089L27.1681 13.7193C27.2581 13.4813 27.1303 13.2165 26.8823 13.1288C26.6394 13.0436 26.3586 13.1715 26.2682 13.404L25.9705 14.1916L25.1517 14.478Z" fill="#EB0000"/>
+    <path d="M23.7148 12.7237C23.4572 12.7769 23.2919 13.0216 23.3463 13.2693C23.3927 13.4813 23.5896 13.6348 23.8144 13.6348C23.8476 13.6348 23.8808 13.6315 23.9141 13.6248L24.9843 13.4058C24.9885 13.405 24.9916 13.402 24.9955 13.4009C25.0488 13.3887 25.0986 13.3682 25.1438 13.3396C25.155 13.3325 25.1642 13.3239 25.1747 13.3158C25.2094 13.2897 25.2399 13.2592 25.2666 13.2243C25.272 13.2172 25.2805 13.2131 25.2855 13.2057C25.2886 13.2012 25.2886 13.196 25.2913 13.1916C25.2959 13.1845 25.3021 13.1789 25.3064 13.1718L25.82 12.2417C25.9432 12.0179 25.8548 11.7386 25.6207 11.6181C25.394 11.5039 25.0951 11.5928 24.975 11.8092L24.566 12.5493L23.7148 12.7237Z" fill="#EB0000"/>
+    <path d="M23.4346 10.7033L22.5644 10.7523C22.437 10.7598 22.32 10.8145 22.2354 10.9067C22.1504 10.9989 22.1079 11.1172 22.1156 11.2384C22.1288 11.482 22.3381 11.6732 22.5918 11.6732L23.7127 11.6103C23.7184 11.6099 23.7227 11.607 23.7285 11.6062C23.7833 11.6014 23.8359 11.5891 23.8849 11.5672C23.8888 11.5657 23.893 11.5649 23.8961 11.5631C23.9455 11.5396 23.9884 11.5058 24.027 11.4671C24.0317 11.4623 24.0382 11.4601 24.0429 11.4552C24.0463 11.4515 24.0471 11.4467 24.0506 11.443C24.056 11.4366 24.0626 11.4322 24.0676 11.4255L24.7199 10.5805C24.8771 10.3767 24.8335 10.0874 24.621 9.93492C24.4167 9.78988 24.1039 9.83451 23.9517 10.0309L23.4346 10.7033Z" fill="#EB0000"/>
+    <path d="M21.6569 9.53854L22.7441 9.64676L22.7931 9.64936C22.8553 9.64936 22.9148 9.63746 22.97 9.61626C22.9843 9.61068 22.9955 9.59953 23.0098 9.59283C23.0492 9.57312 23.0874 9.55267 23.1195 9.52366C23.1214 9.52217 23.1241 9.52143 23.126 9.51957L23.9116 8.78731C24.1008 8.61066 24.1059 8.31835 23.9224 8.13575C23.7455 7.95873 23.4292 7.95427 23.2461 8.12571L22.6216 8.70847L21.7534 8.62182L21.7059 8.61959C21.4607 8.61959 21.256 8.79735 21.2301 9.0335C21.203 9.28565 21.3946 9.51213 21.6569 9.53854Z" fill="#EB0000"/>
+    <path d="M32.423 18.0346C32.4412 18.0064 32.4601 17.9796 32.4709 17.9484C32.4794 17.9246 32.4802 17.8989 32.4848 17.8736C32.4895 17.8465 32.5003 17.8208 32.4999 17.7925C32.4999 17.7847 32.4953 17.7784 32.4949 17.7706C32.4945 17.7643 32.4976 17.7583 32.4968 17.752L32.3836 16.7052C32.3589 16.4698 32.1546 16.292 31.909 16.292L31.8584 16.2946C31.5961 16.321 31.4054 16.5478 31.4324 16.8004L31.5232 17.633L30.9179 18.2362C30.8291 18.3247 30.7808 18.4415 30.7828 18.5646C30.7851 18.6877 30.8372 18.8026 30.928 18.8866C31.0176 18.9707 31.1358 19.0168 31.2609 19.0168C31.3899 19.0168 31.5154 18.9658 31.6054 18.8766L32.3651 18.1202C32.3709 18.1146 32.3728 18.1068 32.3779 18.1008C32.3964 18.0811 32.4087 18.0573 32.423 18.0346Z" fill="#EB0000"/>
+    <path d="M30.0145 15.4946C29.7616 15.4946 29.5518 15.6854 29.5372 15.929L29.4881 16.7654L28.7894 17.2678C28.6867 17.3418 28.6207 17.4496 28.6029 17.5716C28.5851 17.6936 28.6176 17.8144 28.6933 17.9115C28.7825 18.0279 28.9265 18.0975 29.0768 18.0975C29.1811 18.0975 29.2796 18.0658 29.3637 18.0056L30.2393 17.3756C30.247 17.37 30.2505 17.3615 30.2578 17.3559C30.2829 17.3351 30.3026 17.3105 30.3231 17.2856C30.3409 17.2637 30.3602 17.244 30.3733 17.2198C30.3865 17.1953 30.393 17.1681 30.4015 17.141C30.4112 17.1112 30.4224 17.083 30.4255 17.0521C30.4262 17.0454 30.4301 17.0402 30.4305 17.0335L30.4927 15.9818C30.5066 15.7271 30.3038 15.5091 30.0145 15.4946Z" fill="#EB0000"/>
+    <path d="M26.851 15.9971C26.6185 16.1168 26.5305 16.3961 26.6548 16.6211C26.739 16.771 26.9009 16.864 27.0777 16.864C27.1554 16.864 27.233 16.8454 27.3025 16.8097L28.2677 16.3139C28.28 16.3076 28.2874 16.2965 28.299 16.289C28.3291 16.2701 28.3557 16.2481 28.3812 16.2232C28.3971 16.2072 28.4129 16.1923 28.426 16.1741C28.448 16.1451 28.4635 16.1135 28.4778 16.08C28.4859 16.0614 28.4955 16.0443 28.5009 16.025C28.5033 16.0172 28.5083 16.0109 28.5098 16.003L28.7365 14.9725C28.791 14.7241 28.6253 14.4794 28.3681 14.4266C28.1116 14.373 27.8529 14.5385 27.7996 14.7821L27.62 15.6021L26.851 15.9971Z" fill="#EB0000"/>
+    <path d="M58.06 28.74C56.8333 28.74 55.7933 28.5333 54.94 28.12C54.0867 27.6933 53.36 27.1467 52.76 26.48L54.76 24.46C55.7067 25.5267 56.8733 26.06 58.26 26.06C59.0067 26.06 59.56 25.9067 59.92 25.6C60.28 25.2933 60.46 24.8867 60.46 24.38C60.46 23.9933 60.3533 23.6733 60.14 23.42C59.9267 23.1533 59.4933 22.9733 58.84 22.88L57.46 22.7C55.98 22.5133 54.8933 22.0667 54.2 21.36C53.52 20.6533 53.18 19.7133 53.18 18.54C53.18 17.9133 53.3 17.34 53.54 16.82C53.78 16.3 54.12 15.8533 54.56 15.48C55.0133 15.1067 55.56 14.82 56.2 14.62C56.8533 14.4067 57.5933 14.3 58.42 14.3C59.4733 14.3 60.4 14.4667 61.2 14.8C62 15.1333 62.6867 15.62 63.26 16.26L61.24 18.3C60.9067 17.9133 60.5 17.6 60.02 17.36C59.5533 17.1067 58.96 16.98 58.24 16.98C57.56 16.98 57.0533 17.1 56.72 17.34C56.3867 17.58 56.22 17.9133 56.22 18.34C56.22 18.82 56.3467 19.1667 56.6 19.38C56.8667 19.5933 57.2933 19.7467 57.88 19.84L59.26 20.06C60.7 20.2867 61.7667 20.7333 62.46 21.4C63.1533 22.0533 63.5 22.9867 63.5 24.2C63.5 24.8667 63.38 25.48 63.14 26.04C62.9 26.6 62.5467 27.08 62.08 27.48C61.6267 27.88 61.06 28.1933 60.38 28.42C59.7 28.6333 58.9267 28.74 58.06 28.74ZM70.2405 28.74C69.4405 28.74 68.7271 28.6133 68.1005 28.36C67.4738 28.0933 66.9405 27.7267 66.5005 27.26C66.0738 26.78 65.7471 26.2 65.5205 25.52C65.3071 24.84 65.2005 24.08 65.2005 23.24C65.2005 22.4133 65.3071 21.6667 65.5205 21C65.7338 20.32 66.0471 19.74 66.4605 19.26C66.8871 18.78 67.4071 18.4133 68.0205 18.16C68.6338 17.8933 69.3338 17.76 70.1205 17.76C70.9871 17.76 71.7271 17.9067 72.3405 18.2C72.9671 18.4933 73.4738 18.8867 73.8605 19.38C74.2605 19.8733 74.5471 20.4467 74.7205 21.1C74.9071 21.74 75.0005 22.4133 75.0005 23.12V24H68.2605V24.16C68.2605 24.8533 68.4471 25.4067 68.8205 25.82C69.1938 26.22 69.7805 26.42 70.5805 26.42C71.1938 26.42 71.6938 26.3 72.0805 26.06C72.4671 25.8067 72.8271 25.5067 73.1605 25.16L74.6405 27C74.1738 27.5467 73.5605 27.9733 72.8005 28.28C72.0538 28.5867 71.2005 28.74 70.2405 28.74ZM70.1805 19.94C69.5805 19.94 69.1071 20.14 68.7605 20.54C68.4271 20.9267 68.2605 21.4467 68.2605 22.1V22.26H71.9405V22.08C71.9405 21.44 71.7938 20.9267 71.5005 20.54C71.2205 20.14 70.7805 19.94 70.1805 19.94ZM84.8509 28.5C84.3176 28.5 83.8709 28.3333 83.5109 28C83.1643 27.6667 82.9443 27.22 82.8509 26.66H82.7309C82.5709 27.34 82.2176 27.86 81.6709 28.22C81.1243 28.5667 80.4509 28.74 79.6509 28.74C78.5976 28.74 77.7909 28.46 77.2309 27.9C76.6709 27.34 76.3909 26.6 76.3909 25.68C76.3909 24.5733 76.7909 23.7533 77.5909 23.22C78.4043 22.6733 79.5043 22.4 80.8909 22.4H82.5509V21.74C82.5509 21.2333 82.4176 20.8333 82.1509 20.54C81.8843 20.2333 81.4376 20.08 80.8109 20.08C80.2243 20.08 79.7576 20.2067 79.4109 20.46C79.0643 20.7133 78.7776 21 78.5509 21.32L76.7909 19.76C77.2176 19.1333 77.7509 18.6467 78.3909 18.3C79.0443 17.94 79.9243 17.76 81.0309 17.76C82.5243 17.76 83.6443 18.0867 84.3909 18.74C85.1376 19.3933 85.5109 20.3467 85.5109 21.6V26.2H86.4909V28.5H84.8509ZM80.7509 26.68C81.2443 26.68 81.6643 26.5733 82.0109 26.36C82.3709 26.1467 82.5509 25.8 82.5509 25.32V24.08H81.1109C79.9509 24.08 79.3709 24.4733 79.3709 25.26V25.56C79.3709 25.9467 79.4909 26.2333 79.7309 26.42C79.9709 26.5933 80.3109 26.68 80.7509 26.68ZM88.4777 28.5V18H91.4377V19.78H91.5577C91.7443 19.22 92.0643 18.7467 92.5177 18.36C92.971 17.96 93.591 17.76 94.3777 17.76C95.0977 17.76 95.711 17.94 96.2177 18.3C96.7243 18.66 97.091 19.1867 97.3177 19.88H97.3777C97.471 19.5867 97.611 19.3133 97.7977 19.06C97.9977 18.7933 98.2377 18.5667 98.5177 18.38C98.7977 18.1933 99.111 18.0467 99.4577 17.94C99.8043 17.82 100.178 17.76 100.578 17.76C101.591 17.76 102.364 18.12 102.898 18.84C103.444 19.56 103.718 20.5867 103.718 21.92V28.5H100.758V22.16C100.758 20.8267 100.278 20.16 99.3177 20.16C98.8777 20.16 98.4777 20.2867 98.1177 20.54C97.7577 20.7933 97.5777 21.18 97.5777 21.7V28.5H94.6177V22.16C94.6177 20.8267 94.1377 20.16 93.1777 20.16C92.9643 20.16 92.751 20.1933 92.5377 20.26C92.3377 20.3133 92.151 20.4067 91.9777 20.54C91.8177 20.6733 91.6843 20.84 91.5777 21.04C91.4843 21.2267 91.4377 21.4467 91.4377 21.7V28.5H88.4777ZM109.909 28.74C108.895 28.74 108.042 28.58 107.349 28.26C106.655 27.9267 106.035 27.46 105.489 26.86L107.229 25.1C107.602 25.5133 108.015 25.84 108.469 26.08C108.922 26.32 109.435 26.44 110.009 26.44C110.595 26.44 111.002 26.3533 111.229 26.18C111.455 25.9933 111.569 25.7467 111.569 25.44C111.569 24.9467 111.215 24.6533 110.509 24.56L109.369 24.42C107.009 24.1267 105.829 23.0467 105.829 21.18C105.829 20.6733 105.922 20.2133 106.109 19.8C106.309 19.3733 106.582 19.0133 106.929 18.72C107.289 18.4133 107.715 18.18 108.209 18.02C108.715 17.8467 109.282 17.76 109.909 17.76C110.455 17.76 110.935 17.8 111.349 17.88C111.775 17.9467 112.149 18.0533 112.469 18.2C112.802 18.3333 113.102 18.5067 113.369 18.72C113.649 18.92 113.922 19.1467 114.189 19.4L112.489 21.14C112.155 20.8067 111.775 20.5467 111.349 20.36C110.935 20.16 110.509 20.06 110.069 20.06C109.562 20.06 109.202 20.14 108.989 20.3C108.775 20.46 108.669 20.6733 108.669 20.94C108.669 21.22 108.742 21.44 108.889 21.6C109.049 21.7467 109.342 21.8533 109.769 21.92L110.949 22.08C113.255 22.3867 114.409 23.44 114.409 25.24C114.409 25.7467 114.302 26.2133 114.089 26.64C113.875 27.0667 113.569 27.44 113.169 27.76C112.782 28.0667 112.309 28.3067 111.749 28.48C111.202 28.6533 110.589 28.74 109.909 28.74ZM119.467 14.54V23.1C119.467 24.0867 119.66 24.8267 120.047 25.32C120.434 25.8 121.08 26.04 121.987 26.04C122.894 26.04 123.54 25.8 123.927 25.32C124.314 24.8267 124.507 24.0867 124.507 23.1V14.54H127.467V22.78C127.467 23.8067 127.367 24.7 127.167 25.46C126.98 26.2067 126.667 26.8267 126.227 27.32C125.787 27.8 125.22 28.16 124.527 28.4C123.834 28.6267 122.987 28.74 121.987 28.74C120.987 28.74 120.14 28.6267 119.447 28.4C118.754 28.16 118.187 27.8 117.747 27.32C117.307 26.8267 116.987 26.2067 116.787 25.46C116.6 24.7 116.507 23.8067 116.507 22.78V14.54H119.467ZM130.314 18H133.274V19.76H133.374C133.52 19.1733 133.854 18.6933 134.374 18.32C134.907 17.9467 135.514 17.76 136.194 17.76C137.527 17.76 138.534 18.2267 139.214 19.16C139.894 20.0933 140.234 21.4533 140.234 23.24C140.234 25.0267 139.894 26.3933 139.214 27.34C138.534 28.2733 137.527 28.74 136.194 28.74C135.847 28.74 135.52 28.6867 135.214 28.58C134.907 28.4867 134.627 28.3533 134.374 28.18C134.134 27.9933 133.927 27.78 133.754 27.54C133.58 27.2867 133.454 27.02 133.374 26.74H133.274V32.5H130.314V18ZM135.214 26.34C135.774 26.34 136.234 26.1467 136.594 25.76C136.967 25.36 137.154 24.8267 137.154 24.16V22.34C137.154 21.6733 136.967 21.1467 136.594 20.76C136.234 20.36 135.774 20.16 135.214 20.16C134.654 20.16 134.187 20.3 133.814 20.58C133.454 20.8467 133.274 21.22 133.274 21.7V24.8C133.274 25.28 133.454 25.66 133.814 25.94C134.187 26.2067 134.654 26.34 135.214 26.34Z" fill="white"/>
+</svg>
+`;
+
 export default class CallToAction {
   static get toolbox() {
     return {
@@ -6,210 +23,150 @@ export default class CallToAction {
     };
   }
 
+  static defaultVariant = "coach-primary";
+
+  static variants = new Map([
+    [
+      "coach-primary",
+      {
+        icon: "C1",
+        label: "Coach Primary",
+        title: "Wanna grow your baseball or softball coaching brand?",
+        description:
+          "Get connected to new local and online lesson clients—along with all the tools you need to scale.",
+        button: {
+          text: "Download the free app",
+          link: "https://apps.apple.com/us/app/seamsup-1-1-coaching-app/id1509211308",
+        },
+      },
+    ],
+    [
+      "coach-secondary",
+      {
+        icon: "C2",
+        label: "Coach Secondary",
+        title:
+          "See why SeamsUp's the #1 app for baseball & softball businesses",
+        description: "",
+        button: {
+          text: "Download the free app",
+          link: "https://apps.apple.com/us/app/seamsup-1-1-coaching-app/id1509211308",
+        },
+      },
+    ],
+    [
+      "player-primary",
+      {
+        icon: "P1",
+        label: "Player Primary",
+        title: "Unlock your ballplayer’s full potential",
+        description:
+          "Find the perfect vetted coach to build a solid foundation or take your player's skills to new heights.",
+        button: {
+          text: "Download the free app",
+          link: "https://apps.apple.com/us/app/seamsup-1-1-coaching-app/id1509211308",
+        },
+      },
+    ],
+    [
+      "player-secondary",
+      {
+        icon: "P2",
+        label: "Player Secondary",
+        title: "See why SeamsUp's the #1 instructional app for ballplayers",
+        description: "",
+        button: {
+          text: "Download the free app",
+          link: "https://apps.apple.com/us/app/seamsup-1-1-coaching-app/id1509211308",
+        },
+      },
+    ],
+  ]);
+
+  renderSettings() {
+    let settings = [];
+    for (const [key, value] of CallToAction.variants) {
+      settings.push({
+        label: value.label,
+        icon: value.icon,
+        toggle: "variant",
+        closeOnActivate: true,
+        onActivate: () => {
+          this.data.type = key;
+          this.data.title = value.title;
+          this.data.description = value.description;
+          this.data.button.text = value.button.text;
+          this._updateHTML();
+        },
+      });
+    }
+    return settings;
+  }
+
   constructor({ data }) {
-    this.data = data;
+    const variant = CallToAction.variants.get(data.type);
+    const defaultVariant = CallToAction.variants.get(
+      CallToAction.defaultVariant
+    );
+    this.data = {
+      type: variant ? data.type : CallToAction.defaultVariant,
+      title: variant ? variant.title : defaultVariant.title,
+      description: variant ? variant.description : defaultVariant.description,
+      button: {
+        text: variant ? variant.button.text : defaultVariant.button.text,
+        link: variant ? variant.button.link : defaultVariant.button.link,
+      },
+    };
     this.wrapper = undefined;
+  }
 
-    this.types = new Map();
-    this.types.set("coach-primary", {
-      title: "Wanna grow your baseball or softball coaching brand?",
-      description:
-        "Get connected to new local and online lesson clients—along with all the tools you need to scale.",
-      button: {
-        text: "Download the free app",
-        link: "https://apps.apple.com/us/app/seamsup-1-1-coaching-app/id1509211308",
-      },
-      type: "coach-primary",
-    });
-    this.types.set("coach-secondary", {
-      title: "See why SeamsUp's the #1 app for baseball & softball businesses",
-      description: "",
-      button: {
-        text: "Download the free app",
-        link: "https://apps.apple.com/us/app/seamsup-1-1-coaching-app/id1509211308",
-      },
-      type: "coach-secondary",
-    });
-    this.types.set("player-primary", {
-      title: "Unlock your ballplayer’s full potential",
-      description:
-        "Find the perfect vetted coach to build a solid foundation or take your player's skills to new heights.",
-      button: {
-        text: "Download the free app",
-        link: "https://apps.apple.com/us/app/seamsup-1-1-coaching-app/id1509211308",
-      },
-      type: "player-primary",
-    });
-    this.types.set("player-secondary", {
-      title: "See why SeamsUp's the #1 instructional app for ballplayers",
-      description: "",
-      button: {
-        text: "Download the free app",
-        link: "https://apps.apple.com/us/app/seamsup-1-1-coaching-app/id1509211308",
-      },
-      type: "player-secondary",
-    });
-
-    this.classes = {
-      wrapper: "cta-block",
-      title: "cta-block-title",
-      description: "cta-block-description",
-      button: "cta-block-button",
-      link: "cta-block-link",
-      type: "cta-block-type",
-      input: "cdx-input",
+  get CSS() {
+    return {
+      container: "cdx-cta-block",
+      title: "cdx-cta-title",
+      description: "cdx-cta-description",
+      button: "cdx-cta-button",
     };
   }
 
-  _setValues() {
-    this.wrapper.querySelector(`input.${this.classes.title}`).value =
-      this.data.title;
-    this.wrapper.querySelector(`input.${this.classes.description}`).value =
-      this.data.description;
-    this.wrapper.querySelector(`input.${this.classes.button}`).value =
-      this.data.button.text;
-    this.wrapper.querySelector(`input.${this.classes.link}`).value =
-      this.data.button.link;
-    this.wrapper.querySelector(`p.${this.classes.type}`).innerHTML =
-      this.data.type;
-  }
-
-  _clearValues() {
-    this.wrapper.querySelector(`input.${this.classes.title}`).value = "";
-    this.wrapper.querySelector(`input.${this.classes.description}`).value = "";
-    this.wrapper.querySelector(`input.${this.classes.button}`).value = "";
-    this.wrapper.querySelector(`input.${this.classes.link}`).value = "";
-    this.wrapper.querySelector(`p.${this.classes.type}`).innerHTML = "";
-  }
-
-  _onDataChange(data) {
-    if (this.data.title) {
-      this.data = {};
-      this._clearValues();
-    }
-    this.data = { ...data };
-    this._setValues();
-  }
-
-  renderSettings() {
-    return [
-      {
-        icon: `C1`,
-        label: "Coach Primary",
-        toggle: "type",
-        closeOnActivate: true,
-        onActivate: () => {
-          this._onDataChange(this.types.get("coach-primary"));
-        },
-      },
-      {
-        icon: `C2`,
-        label: "Coach Secondary",
-        toggle: "type",
-        closeOnActivate: true,
-        onActivate: () => {
-          this._onDataChange(this.types.get("coach-secondary"));
-        },
-      },
-      {
-        icon: `P1`,
-        label: "Player Primary",
-        toggle: "type",
-        closeOnActivate: true,
-        onActivate: () => {
-          this._onDataChange(this.types.get("player-primary"));
-        },
-      },
-      {
-        icon: `P2`,
-        label: "Player Secondary",
-        toggle: "type",
-        closeOnActivate: true,
-        onActivate: () => {
-          this._onDataChange(this.types.get("player-secondary"));
-        },
-      },
-    ];
+  _updateHTML() {
+    this.wrapper.innerHTML = `
+            <div class="${this.CSS.container}">
+                ${logo}
+                <h2 class="${this.CSS.title}">${this.data.title}</h2>
+                ${
+                  this.data.description &&
+                  `<p class="${this.CSS.description}">${this.data.description}</p>`
+                }
+                <a class="${this.CSS.button}" href="${
+      this.data.button.link
+    }" rel="noopener noreferrer" target="_blank">${this.data.button.text}</a>
+            </div>
+        `;
   }
 
   render() {
     this.wrapper = document.createElement("div");
-    this.wrapper.classList.add(this.classes.wrapper);
-
-    const type = document.createElement("p");
-    this.wrapper.appendChild(type);
-    type.classList.add(this.classes.type);
-    type.innerText = this.data && this.data.type ? this.data.type : "empty";
-
-    const title = document.createElement("input");
-    this.wrapper.appendChild(title);
-    title.classList.add(this.classes.title);
-    title.classList.add(this.classes.input);
-
-    title.placeholder = "Main title";
-    title.value = this.data && this.data.title ? this.data.title : "";
-
-    const description = document.createElement("input");
-    this.wrapper.appendChild(description);
-    description.classList.add(this.classes.description);
-    description.classList.add(this.classes.input);
-
-    description.placeholder = "Description";
-    description.value =
-      this.data && this.data.description ? this.data.description : "";
-
-    const buttonText = document.createElement("input");
-    this.wrapper.appendChild(buttonText);
-    buttonText.classList.add(this.classes.button);
-    buttonText.classList.add(this.classes.input);
-
-    buttonText.placeholder = "Button text";
-    buttonText.value =
-      this.data && this.data?.button?.text ? this.data?.button?.text : "";
-
-    const link = document.createElement("input");
-    this.wrapper.appendChild(link);
-    link.classList.add(this.classes.link);
-    link.classList.add(this.classes.input);
-
-    link.placeholder = "Link";
-    link.value =
-      this.data && this.data?.button?.link ? this.data?.button?.link : "";
-
+    console.log(CallToAction.variants.get(this.data.type));
+    this.wrapper.innerHTML = `
+            <div class="${this.CSS.container}">
+                ${logo}
+                <h2 class="${this.CSS.title}">${this.data.title}</h2>
+                ${
+                  this.data.description &&
+                  `<p class="${this.CSS.description}">${this.data.description}</p>`
+                }
+                <a class="${this.CSS.button}" href="${
+      this.data.button.link
+    }" rel="noopener noreferrer" target="_blank">${this.data.button.text}</a>
+            </div>
+        `;
     return this.wrapper;
   }
 
-  save(blockContent) {
-    const title =
-      blockContent.querySelector(`input.${this.classes.title}`).value || "";
-    const description =
-      blockContent.querySelector(`input.${this.classes.description}`).value ||
-      "";
-    const text =
-      blockContent.querySelector(`input.${this.classes.button}`).value || "";
-    const link =
-      blockContent.querySelector(`input.${this.classes.link}`).value || "";
-
+  save() {
     return {
-      title,
-      description,
-      button: {
-        text,
-        link,
-      },
       type: this.data.type,
-    };
-  }
-
-  static get sanitize() {
-    return {
-      title: {},
-      description: {},
-      button: {
-        text: {},
-        link: {},
-      },
-      type: {},
     };
   }
 }

@@ -192,3 +192,55 @@
   border: 1px solid #fc8181;
   color: #c53030;
 }
+
+.cdx-cta-block {
+  background-color: #0f172a;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  color: #f9fafb;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.codex-editor .ce-block :is(.cdx-cta-title, .cdx-cta-description) {
+  padding: 0;
+  margin: 0;
+}
+
+.codex-editor .ce-block .cdx-cta-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.codex-editor .ce-block .cdx-cta-description {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.ce-block a.cdx-cta-button {
+  align-self: flex-start;
+  display: inline-block;
+  background-color: #eb0000;
+  border-radius: 8px;
+  color: #0f172a;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f9fafb;
+}
+
+.ce-block a.cdx-cta-button:hover {
+  background-color: #c40000;
+}
+
+.ce-block a.cdx-cta-button:active {
+  background-color: #a50000;
+}
+
+.codex-editor .cdx-cta-block path {
+  stroke: none;
+}
